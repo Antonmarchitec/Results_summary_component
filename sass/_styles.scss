@@ -1,0 +1,163 @@
+@import "variables";
+
+
+.main__container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    height: 100vh;
+    background: $White;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container__base{
+        width: 550px;
+        background:$White;
+        box-shadow: 0px 0px 15px $Pale_blue ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius:20px 20px;
+
+        .base__left{
+            width: 50%;
+            height: 380px;
+            background:linear-gradient($Light_slate_blue, $Light_royal_blue);
+            padding: 35px 20px;
+            border-radius: 20px;
+            .base__left__text{
+                color: $Light_lavender;
+                text-align: center;
+                font-weight: 500;
+                font-size:18px;
+            }
+            .base__left__circle{
+                margin: 20px auto;
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                background: linear-gradient($Violet_blue, transparent);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .circle__number{
+                    font-size: 50px;
+                    font-weight: 800;
+                    color: $White;
+                }
+                .circle__text{
+                    color: $Light_lavender;
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+            }
+            .base__left__title{
+                text-align: center;
+                color: $White;
+                font-weight: 500;
+                font-size: 25px;
+                font-weight: 500;
+
+            }
+            .base__left__parrafo{
+                width: 80%;
+                margin: 10px auto;
+                color: $Light_lavender;
+                text-align: center;
+                font-size: 14px;
+
+            }
+        }
+
+        .base__right{
+            width: 50%;
+            height:380px;
+            background:$White;
+            padding: 35px 20px;
+            border-radius: 0px 20px 20px 0px;
+
+            //TITLE
+            .base__right__title{
+                color: $Dark_gray_blue;
+                text-align: start;
+                font-size: 18px;
+                font-weight: 800;
+            }
+
+            //CAJA
+            .base__right__content{
+                background:transparent;
+                padding: 3px 0px;
+                .base__right__div{
+                    margin: 18px auto;
+                    width: 90%;
+                    padding: 5px 0px;
+                    background: rgb(254, 241, 241);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 5px 5px;
+    
+                    ///////////LEFT
+                    .div__left{
+                        margin-left: 18px;
+                        padding: 2px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center ;
+                        .div__left__img{
+                            padding:1px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+    
+                        .div__left__parrafo{
+                            padding:1px;
+                            color: $Light_red;
+                            font-size: 14px;
+                            margin-left: 2px;
+                            font-weight: 500;
+                        }
+                    }
+    
+                    ///////////////RIGHT
+                    .div__right{
+                        margin-right: 18px;
+                        width: auto;
+                        padding: 5px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .div__right__number{
+                            font-size: 14px;
+                            font-weight: 700;
+                            color:$Dark_gray_blue;
+                            
+                        }
+                        .div__right__span{
+                            font-size: 14px;
+                            color: grey;
+                        }
+                    }
+                }
+            }
+            
+
+            //BOTON
+            .base__right__button{
+                width: 90%;
+                margin-left: 12px;
+                padding: 7px;
+                font-size: 14px;
+                color: white;
+                border: none;
+                border-radius:50px 50px;
+                background: $Dark_gray_blue;
+                font-weight: 500;
+            }
+        }
+    }
+}

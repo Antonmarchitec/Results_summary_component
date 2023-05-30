@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./css/main.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main class="main__container">
+    <div class="container__base">
+
+      <!--LEFT-->
+      <section class="base__left">
+        <h2 class="base__left__text"> Your Result </h2>
+
+        <div class="base__left__circle">
+          <div class="circle__number"> 76 </div>
+          <p class="circle__text"> of 100 </p>
+        </div>
+
+        <h2 class="base__left__title"> Great </h2>
+        <p class="base__left__parrafo"> 
+            You scored higher than 65% of the people who have taken these test.
+        </p>
+      </section>
+
+      <!--RIGHT-->
+      <section class="base__right">
+        <h2 class="base__right__title"> Summary </h2>
+
+        <div class="base__right__content" id="base">
+          <!--BOX
+          <div class="base__right__div">
+            <div class="div__left">
+              <figure class="div__left__img">
+                <img src="./assets/images/icon-reaction.svg" alt="icon1" style="width:80%;height:80%;">
+              </figure>
+
+              <p class="div__left__parrafo"> Reaction </p>
+            </div>
+
+            <div class="div__right">
+              <p class="div__right__number"> 80 <span class="div__right__span">/100</span></p>
+            </div>
+
+          </div>
+          -->
+
+
+          <template id="template__main">
+            <div class="base__right__div">
+              <div class="div__left">
+                <figure class="div__left__img">
+                  <img id="iconos" style="width:100%;height:100%;">
+                </figure>
+  
+                <p class="div__left__parrafo" id="texto"> Reaction </p>
+              </div>
+  
+              <div class="div__right">
+                <p class="div__right__number" id="number"> 80 </p>
+                <span class="div__right__span">/100</span>
+              </div>
+  
+            </div>
+          </template>
+
+        </div>
+        
+        <button class="base__right__button"> Continue </button>
+      </section>
+    </div>
+  </main>
+
+
+
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+
+
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

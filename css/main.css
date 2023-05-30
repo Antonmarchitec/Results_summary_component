@@ -1,0 +1,173 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+.main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  height: 100vh;
+  background: hsl(0deg, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__container .container__base {
+  width: 550px;
+  background: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 0px 15px hsl(221deg, 100%, 96%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px 20px;
+}
+.main__container .container__base .base__left {
+  width: 50%;
+  height: 380px;
+  background: linear-gradient(hsl(252deg, 100%, 67%), hsl(241deg, 81%, 54%));
+  padding: 35px 20px;
+  border-radius: 20px;
+}
+.main__container .container__base .base__left .base__left__text {
+  color: hsl(241deg, 100%, 89%);
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.main__container .container__base .base__left .base__left__circle {
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(hsl(256deg, 72%, 46%), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__container .container__base .base__left .base__left__circle .circle__number {
+  font-size: 50px;
+  font-weight: 800;
+  color: hsl(0deg, 0%, 100%);
+}
+.main__container .container__base .base__left .base__left__circle .circle__text {
+  color: hsl(241deg, 100%, 89%);
+  font-weight: 500;
+  font-size: 15px;
+}
+.main__container .container__base .base__left .base__left__title {
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 500;
+  font-size: 25px;
+  font-weight: 500;
+}
+.main__container .container__base .base__left .base__left__parrafo {
+  width: 80%;
+  margin: 10px auto;
+  color: hsl(241deg, 100%, 89%);
+  text-align: center;
+  font-size: 14px;
+}
+.main__container .container__base .base__right {
+  width: 50%;
+  height: 380px;
+  background: hsl(0deg, 0%, 100%);
+  padding: 35px 20px;
+  border-radius: 0px 20px 20px 0px;
+}
+.main__container .container__base .base__right .base__right__title {
+  color: hsl(224deg, 30%, 27%);
+  text-align: start;
+  font-size: 18px;
+  font-weight: 800;
+}
+.main__container .container__base .base__right .base__right__content {
+  background: transparent;
+  padding: 3px 0px;
+}
+.main__container .container__base .base__right .base__right__content .base__right__div {
+  margin: 18px auto;
+  width: 90%;
+  padding: 5px 0px;
+  background: rgb(254, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px 5px;
+}
+.main__container .container__base .base__right .base__right__content .base__right__div .div__left {
+  margin-left: 18px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main__container .container__base .base__right .base__right__content .base__right__div .div__left .div__left__img {
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__container .container__base .base__right .base__right__content .base__right__div .div__left .div__left__parrafo {
+  padding: 1px;
+  color: hsl(0deg, 100%, 67%);
+  font-size: 14px;
+  margin-left: 2px;
+  font-weight: 500;
+}
+.main__container .container__base .base__right .base__right__content .base__right__div .div__right {
+  margin-right: 18px;
+  width: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main__container .container__base .base__right .base__right__content .base__right__div .div__right .div__right__number {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(224deg, 30%, 27%);
+}
+.main__container .container__base .base__right .base__right__content .base__right__div .div__right .div__right__span {
+  font-size: 14px;
+  color: grey;
+}
+.main__container .container__base .base__right .base__right__button {
+  width: 90%;
+  margin-left: 12px;
+  padding: 7px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 50px 50px;
+  background: hsl(224deg, 30%, 27%);
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=main.css.map */
