@@ -8,6 +8,7 @@
     height: 100vh;
     background: $White;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     .container__base{
@@ -98,7 +99,7 @@
                     justify-content: space-between;
                     align-items: center;
                     border-radius: 5px 5px;
-    
+                    
                     ///////////LEFT
                     .div__left{
                         margin-left: 18px;
@@ -150,14 +151,32 @@
             .base__right__button{
                 width: 90%;
                 margin-left: 12px;
-                padding: 7px;
+                padding: 10px;
                 font-size: 14px;
                 color: white;
                 border: none;
                 border-radius:50px 50px;
-                background: $Dark_gray_blue;
+                background:$Light_slate_blue ;
                 font-weight: 500;
+                transition: 0.5s;
+            }
+
+            .base__right__button:hover{
+                background: $Dark_gray_blue;
+                cursor: pointer;
             }
         }
     }
+
+
+    .attribution{
+        margin-top: 50px;
+        width: 100%;
+        padding: 10px 0px;
+        background:rgba(128, 128, 128, 0.108);
+        text-align: center;
+    }
 }
+
+
+
