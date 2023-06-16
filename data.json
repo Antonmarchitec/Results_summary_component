@@ -1,20 +1,32 @@
 [
   {
+    "rgba": [255,255,255,1],
+    "hex": "#ffe6e6",
+    "color":"#ff5757",
     "category": "Reaction",
     "score": 80,
     "icon": "./assets/images/icon-reaction.svg"
   },
   {
+    "rgba": [255,255,255,1],
+    "hex": "#fdfdd2",
+    "color":"#ffb01f",
     "category": "Memory",
     "score": 92,
     "icon": "./assets/images/icon-memory.svg"
   },
   {
+    "rgba": [255,255,255,1],
+    "hex": "#e7ffe7",
+    "color":"#00bd91",
     "category": "Verbal",
     "score": 61,
     "icon": "./assets/images/icon-verbal.svg"
   },
   {
+    "rgba": [255,255,255,1],
+    "hex": "#e7e7ff",
+    "color":"#1125d4",
     "category": "Visual",
     "score": 72,
     "icon": "./assets/images/icon-visual.svg"
