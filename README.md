@@ -13,7 +13,7 @@ https://github.com/Antonmarchitec/Results_summary_component.git
 ## Vista previa del componente:
 https://antonmarchitec.github.io/Results_summary_component/
 
-## Página fuente frontEnd mentor:
+## Página de aprendizaje frontEnd mentor:
 https://www.frontendmentor.io/
 
 Sería genial que compartieras tu resultado con nuestra comunidad, así aprendemos todos juntos nuevas técnicas de desarrollo.
@@ -25,3 +25,4 @@ Sería genial que compartieras tu resultado con nuestra comunidad, así aprendem
 "Supera los límites del código, porque es en las líneas en blanco donde tu creatividad cobra vida."-->
 
 ## Imagen proyecto:
+![TARGET_22](https://github.com/Antonmarchitec/Results_summary_component/assets/70084380/f8246652-c4dc-4fd6-982c-f4019a42f775)
